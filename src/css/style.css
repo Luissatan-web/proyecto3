@@ -165,9 +165,6 @@ nav .hamburger{
     width: 40px;
 }
 @media screen and (max-width: 970px) {
-    .form{
-        width: 95%;
-    }
     .contenedor{
         flex-direction: column;
     }
@@ -184,6 +181,9 @@ nav .hamburger{
     }
 }
 @media screen and (max-width: 970px) {
+    .form{
+        width: 95%;
+    }
     .contenido .nomina{
         flex-wrap: wrap;
     }
