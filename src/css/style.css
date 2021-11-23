@@ -165,7 +165,9 @@ nav .hamburger{
     width: 40px;
 }
 @media screen and (max-width: 970px) {
-   
+    .form{
+        width: 95%;
+    }
     .contenedor{
         flex-direction: column;
     }
