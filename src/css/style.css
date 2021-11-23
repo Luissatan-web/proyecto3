@@ -180,7 +180,7 @@ nav .hamburger{
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 670px) {
     .form{
         width: 95%;
     }
