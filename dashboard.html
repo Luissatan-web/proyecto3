@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!--GoogleFonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Estilos-->
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <nav>
+        <a><span id="show" class="material-icons-outlined icon hamburger">menu</span></a>
+        <p>Logo <span class="material-icons-outlined icon">check_box</span></p>
+        <button data-toggle="modal" data-target="#soporte" class="btn">Soporte</button>
+    </nav>
+    <div class="contenedor">
+        <div class="menu" id="menu">
+            <div class="cabecera">
+                <span class="material-icons icon user">person</span>
+                <p>Aceves Pelayo Mónica</p>
+            </div>
+            <div class="navegacion">
+               <div class="liga"><p>Configuracion de vista</p> <span class="material-icons-outlined icon">visibility</span></div>
+               <div class="liga"><p>Registro de incidencias</p> <span class="material-icons-outlined icon">check_box</span></div>
+               <div class="liga"><p>Registro de usuairos</p> <span class="material-icons-outlined icon">group_add</span></div>
+               <a href="index.html"><div class="liga"><p>Cerrar sesion</p>  <span class="material-icons-outlined icon">logout</span></div></a>
+            </div>
+            <div class="redes">
+             <a href="https://www.facebook.com/" target="_blank" ><img src="https://cdn.icon-icons.com/icons2/2429/PNG/512/facebook_logo_icon_147291.png" alt=""></a>
+             <a href="https://www.instagram.com/" target="_blank" ><img src="https://cdn.icon-icons.com/icons2/1211/PNG/512/1491580635-yumminkysocialmedia26_83102.png" alt=""></a>
+             <a href="https://www.youtube.com/" target="_blank" ><img src="https://cdn.icon-icons.com/icons2/1211/PNG/512/1491580651-yumminkysocialmedia28_83061.png" alt=""></a>
+            </div>
+        </div>
+        <div class="contenido" id="contenido">
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 1</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina1">Visualizar</button>
+                </div>
+                <div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">31 Mayo 2021 5 Junio 2021</p>
+                <p class="verde">Aceptada</p>
+              </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 2</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina2">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">7 Junio 2021 13 Junio 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 3</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina3">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">14 Junio 2021 19 Junio 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 4</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina4">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">21 Junio 2021 26 Junio 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 5</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina5">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">28 Junio 2021 03 Julio 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 6</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina6">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">05 Julio 2021 10 Julio 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 7</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina7">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">12 Julio 2021 17 Julio 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 8</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina8">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">19 Julio 2021 24 Julio 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 9</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina9">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">26 Julio 2021 31 Julio 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 10</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina10">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">02 Agosto 2021 07 Agosto 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 11</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina11">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor"> 9 Agosto 2021 14 Agosto 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 12</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina12">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">16 Agosto 2021 21 Agosto 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 13</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina13">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">23 Agosto 2021 28 Agosto 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 14</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina14">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">30 Agosto 2021 04 Septiembre 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 15</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina15">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">06 Septiembre 2021 11 Septiembre 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 16</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina16">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">13 Septiembre 2021 18 Septiembre 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 17</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina17">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">20 Septiembre 2021 25 Septiembre 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 18</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina18">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">27 Septiembre 2021 02 Octubrebre 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 19</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina19">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">4 Octubre 2021 08 Octubrebre 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+            <div class="nomina">
+                <img src="https://cdn.icon-icons.com/icons2/886/PNG/512/file_pdf_download_icon-icons.com_68954.png" alt="">
+                <div class="primarios">
+                    <p class="azul-menor">Semana 20</p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#nomina20">Visualizar</button>
+                </div><div class="secundario">
+                <p class="azul">Aceves Pelayo Mónica</p>
+                <p class="azul-menor">11 Octubre 2021 15 Octubrebre 2021</p>
+                <p class="verde">Aceptada</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Soporte-->
+    <div class="modal fade" id="soporte" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="exampleModalLabel">Soporte</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <form target="_blank" action="https://formsubmit.co/lflores@comercialmm.com" method="POST" id="formulario">
+                      <div class="form-group">
+                        <div class="form-row">
+                          <div class="col">
+                            <input type="text" name="name" class="form-control" maxlength="26" placeholder="Nombre completo" required >
+                          </div>
+                          <div class="col">
+                            <input type="email" name="email" class="form-control" placeholder="Correo" required>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="telefono" maxlength="10" class="form-control" placeholder="Número telefonico" required>
+                    </div>
+                      <div class="form-group">
+                        <textarea placeholder="Mensaje" maxlength="50" class="form-control" name="message" rows="10" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-lg btn-primary btn-block">Enviar</button>
+                    </form>
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #1-->
+      <div class="modal fade show" id="nomina1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 1</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 1.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #2-->
+      <div class="modal fade show" id="nomina2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 2</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 2.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #3-->
+      <div class="modal fade show" id="nomina3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 3</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 3.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #4-->
+      <div class="modal fade show" id="nomina4" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 4</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 4.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #5-->
+      <div class="modal fade show" id="nomina5" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 5</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 5.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #6-->
+      <div class="modal fade show" id="nomina6" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 6</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 6.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #7-->
+      <div class="modal fade show" id="nomina7" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 7</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 7.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #8-->
+      <div class="modal fade show" id="nomina8" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 8</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 8.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #9-->
+      <div class="modal fade show" id="nomina9" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 9</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 9.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #10-->
+      <div class="modal fade show" id="nomina10" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 10</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 10.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #11-->
+      <div class="modal fade show" id="nomina11" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 11</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 11.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #12-->
+      <div class="modal fade show" id="nomina12" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 12</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 12.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #13-->
+      <div class="modal fade show" id="nomina13" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 13</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 13.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #14-->
+      <div class="modal fade show" id="nomina14" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 14</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 14.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #15-->
+      <div class="modal fade show" id="nomina15" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 15</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 15.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #16-->
+      <div class="modal fade show" id="nomina16" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 16</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 16.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #17-->
+      <div class="modal fade show" id="nomina17" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 17</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 17.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #18-->
+      <div class="modal fade show" id="nomina18" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 18</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 18.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #19-->
+      <div class="modal fade show" id="nomina19" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 19</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 19.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Nomina #20-->
+      <div class="modal fade show" id="nomina20" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" style="padding-right: 17px; display: none;" aria-modal="true">
+        <div class="modal-lg modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3>Semana 20</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
+            </div>
+            <div class="modal-body">
+             <object style="margin: auto; display: block; width: 100%; height: 100vh;" data="src/img/Nominas/Nomina Semana 20.pdf" type="application/pdf"></object>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Rechazar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--menu-->
+    <script src="src/js/script.js"></script>
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

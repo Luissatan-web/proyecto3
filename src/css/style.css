@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #114F99;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+nav p{
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
+nav .btn{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+}
+nav .hamburger{
+    position: static;
+}
+.form{
+    width: 45%;
+    max-width: 400px;
+    border: 1px solid #113799;
+    margin: 150px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.form h2{
+    color: #114F99;
+    margin: 20px auto;
+}
+.form input{
+    width: 90%;
+    padding: 5px 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    border: 1px solid #114F99;
+    border-radius: 5px;
+}
+.form a{
+    font-size: 18px;
+    background-color: #114F99;
+    display: inline-block;
+    padding: 18px 40px;
+    border-radius: 5px;
+}
+.contenedor{
+    display: flex;
+}
+.menu{
+    background-color: #125CB4;
+    width: 30%;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    display: none;
+}
+.icon{
+    color: #fff;
+}
+.hamburger{
+    position: absolute;
+    right: 25px;
+    top: 55px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.user{
+    font-size: 120px;
+    color:#125CB4;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.navegacion{
+    width: 60%;
+    margin: 45px auto;
+}
+.navegacion .liga{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    font-size: 15px;
+    cursor: pointer;
+}
+.contenido{
+    overflow-y: scroll;
+    height: 100vh;
+    padding-top: 45px;
+    width: 100%;
+}
+.contenido .nomina{
+    width: 90%;
+    margin: 55px auto;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom: 1px solid #ccc;
+}
+.contenido .nomina .primarios{
+    display: flex;
+    flex-direction: column;
+}
+.contenido .nomina .primarios p{
+    margin-bottom: 20px;
+}
+.contenido .nomina img{
+    width: 105px;
+    height: 100%;
+}
+.azul-menor{
+    background-color: #58A8F7;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.azul{
+    background-color: #356a9e;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.verde{
+    background-color: #229c12;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.redes img{
+    width: 40px;
+}
+@media screen and (max-width: 970px) {
+   
+    .contenedor{
+        flex-direction: column;
+    }
+    .contenedor .menu{
+        width: 100%;
+        position: absolute;
+    }
+    .contenedor .contenido{
+        width: 100%;
+    }
+    .secundario{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 970px) {
+    .contenido .nomina{
+        flex-wrap: wrap;
+    }
+    .azul,.azul-menor,.verde{
+        margin-top: 10px;
+    }
+}
+.visible{
+    display: block;
+}
